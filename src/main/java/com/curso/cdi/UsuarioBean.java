@@ -1,12 +1,14 @@
 package com.curso.cdi;
 
 import java.io.Serializable;
+import javax.enterprise.context.ApplicationScoped;
 import javax.enterprise.context.SessionScoped;
 import javax.inject.Named;
 
 
 @Named
 @SessionScoped
+//@ApplicationScoped
 public class UsuarioBean implements Serializable{
     
     private String nombre;
